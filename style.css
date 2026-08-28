@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -148,8 +148,6 @@ LANDING
 
 */
 
-
-
 #landing {
   background-color: rgb(172, 213, 255);
 }
@@ -209,7 +207,7 @@ button:active {
   border: none;
 }
 
-.header__img--wrapper{
+.header__img--wrapper {
   padding: 20px;
   z-index: 50;
 }
@@ -247,7 +245,7 @@ HIGHLIGHTS
 
 #highlights:after,
 #highlights:before {
-  background: url('e-commerce__resources/assets/wave.svg');
+  background: url("e-commerce__resources/assets/wave.svg");
   content: "";
   position: absolute;
   width: 101vw;
@@ -258,9 +256,8 @@ HIGHLIGHTS
   background-repeat: no-repeat;
 }
 
-
 #highlights:before {
-  background: url('e-commerce__resources/assets/wave.svg');
+  background: url("e-commerce__resources/assets/wave.svg");
   content: "";
   position: absolute;
   width: 101vw;
@@ -299,7 +296,7 @@ HIGHLIGHTS
 
 .highlight__img {
   border: 2px solid rgb(0, 0, 183);
-  color:rgb(0, 0, 233);
+  color: rgb(0, 0, 233);
   width: 100px;
   height: 100px;
   align-items: center;
@@ -366,7 +363,7 @@ FEATURES
 
 .book__ratings {
   margin-bottom: 8px;
-  color: #fabf2a
+  color: #fabf2a;
 }
 
 .book__price--normal {
@@ -439,7 +436,7 @@ SMALL PHONES
   button {
     font-size: 18px;
   }
-  
+
   .book {
     width: 50%;
   }
